@@ -12,8 +12,12 @@ namespace AplicacionDeConsolaBE
     {
         static void Main(string[] args)
         {
-            System.Console.Write("Hola Mundo");
-            Thread.Sleep(2000);
+            System.Console.Write("###### Bienvenido al programa: #####");
+            // Thread.Sleep(2000);
+
+            System.Console.Write("Este es otro mensaje de salida");
+
+            System.Console.Read();
         }
     }
 }
